@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: MinionVariableConcept-Italic, 'Minion Variable Concept';
+        font-size: 70px;
+        font-style: italic;
+        font-variation-settings: 'wght' 400, 'opsz' 11;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #bf9255;
+      }
+
+      .cls-3 {
+        letter-spacing: .09em;
+      }
+
+      .cls-4 {
+        letter-spacing: .07em;
+      }
+
+      .cls-5 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-6 {
+        letter-spacing: .07em;
+      }
+
+      .cls-7 {
+        letter-spacing: .1em;
+      }
+
+      .cls-8 {
+        letter-spacing: .07em;
+      }
+
+      .cls-9 {
+        letter-spacing: .11em;
+      }
+
+      .cls-10 {
+        letter-spacing: .06em;
+      }
+
+      .cls-11 {
+        fill: #333653;
+      }
+
+      .cls-12 {
+        fill: #fff;
+        font-family: Roboto-Black, Roboto;
+        font-size: 160px;
+        font-weight: 800;
+      }
+
+      .cls-13 {
+        letter-spacing: .08em;
+      }
+
+      .cls-14 {
+        letter-spacing: .11em;
+      }
+
+      .cls-15 {
+        letter-spacing: .07em;
+      }
+    </style>
+  </defs>
+  <circle class="cls-11" cx="540" cy="540" r="506.61"/>
+  <text class="cls-1" transform="translate(262.53 785.57)"><tspan class="cls-7" x="0" y="0">A</tspan><tspan class="cls-10" x="47.25" y="0">d</tspan><tspan class="cls-3" x="87.92" y="0">v</tspan><tspan class="cls-6" x="124.95" y="0">i</tspan><tspan class="cls-4" x="149.38" y="0">so</tspan><tspan class="cls-9" x="214.76" y="0">r</tspan><tspan class="cls-4" x="248.29" y="0">y </tspan><tspan class="cls-13" x="304.56" y="0">S</tspan><tspan class="cls-4" x="343.13" y="0">e</tspan><tspan class="cls-14" x="376.31" y="0">r</tspan><tspan class="cls-3" x="409.77" y="0">v</tspan><tspan class="cls-4" x="446.8" y="0">i</tspan><tspan class="cls-15" x="470.6" y="0">c</tspan><tspan class="cls-8" x="502.52" y="0">e</tspan><tspan class="cls-4" x="535.98" y="0">s</tspan></text>
+  <text class="cls-12" transform="translate(60.59 658.07)"><tspan x="0" y="0">SUN G</tspan><tspan class="cls-5" x="467.73" y="0">L</tspan><tspan x="549.45" y="0">OBAL</tspan></text>
+  <g>
+    <path class="cls-2" d="M597.54,465.65l-61.73-49.71-61.68,49.78-8.5-78.81-78.82-8.43,49.72-61.73-49.77-61.68,78.81-8.5,8.42-78.82,61.73,49.72,61.68-49.77,8.5,78.8,78.82,8.42-49.72,61.73,49.78,61.69-78.81,8.49-8.42,78.82ZM535.8,407.74l56.64,45.61,7.72-72.3,72.3-7.8-45.67-56.59,45.62-56.64-72.3-7.72-7.8-72.31-56.59,45.67-56.64-45.61-7.73,72.3-72.3,7.8,45.67,56.6-45.61,56.64,72.31,7.72,7.8,72.3,56.59-45.67Z"/>
+    <path class="cls-2" d="M477.71,374.13l11.21-38.61-35.35-19.15,35.23-19.38-11.45-38.54,38.61,11.21,19.14-35.35,19.38,35.23,38.54-11.46-11.21,38.61,35.35,19.16-35.23,19.37,11.46,38.54-38.61-11.21-19.15,35.36-19.38-35.23-38.54,11.45ZM495.63,332.72l-9.59,33.04,32.97-9.8,16.58,30.14,16.39-30.25,33.04,9.59-9.81-32.97,30.14-16.58-30.25-16.38,9.59-33.04-32.97,9.8-16.58-30.14-16.38,30.25-33.04-9.59,9.8,32.97-30.14,16.58,30.25,16.38Z"/>
+  </g>
+</svg>

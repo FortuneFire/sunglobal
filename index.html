@@ -1,21 +1,56 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-ZA">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Sun Global Financial Services provides financial advice and solutions across protection, investments, retirement and structured investments.">
-  <title>Sun Global Financial Services | Protect. Invest. Plan.</title>
+  <meta name="description" content="Get practical financial advice, investment planning and protection guidance from Sun Global Advisory Services, built around your goals and future.">
+  <title>Financial Advice &amp; Investment Planning | Sun Global Advisory Services</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/png" href="assets/Sun%20Global%20Logo-01.png">
+  <link rel="icon" type="image/svg+xml" href="assets/sun-global-advisory-services-logo.svg">
   <link rel="stylesheet" href="styles.css">
+  <link rel="canonical" href="https://www.sunglobal.africa/">
+  <meta name="robots" content="index,follow">
+  <meta property="og:title" content="Financial Advice &amp; Investment Planning | Sun Global Advisory Services">
+  <meta property="og:description" content="Get practical financial advice, investment planning and protection guidance from Sun Global Advisory Services, built around your goals and future.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.sunglobal.africa/">
+  <meta property="og:image" content="https://www.sunglobal.africa/assets/sun-global-advisory-services-logo.svg">
+  <meta property="og:site_name" content="Sun Global Advisory Services">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Financial Advice &amp; Investment Planning | Sun Global Advisory Services">
+  <meta name="twitter:description" content="Get practical financial advice, investment planning and protection guidance from Sun Global Advisory Services, built around your goals and future.">
+  <meta name="twitter:image" content="https://www.sunglobal.africa/assets/sun-global-advisory-services-logo.svg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "FinancialService",
+        "@id": "https://www.sunglobal.africa/#business",
+        "name": "Sun Global Advisory Services",
+        "legalName": "Sun Global Advisory Services (Pty) Ltd",
+        "url": "https://www.sunglobal.africa/",
+        "logo": "https://www.sunglobal.africa/assets/sun-global-advisory-services-logo.svg",
+        "identifier": "FSP 51703",
+        "areaServed": "South Africa"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.sunglobal.africa/#website",
+        "name": "Sun Global Advisory Services",
+        "url": "https://www.sunglobal.africa/"
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <header class="site-header" id="top">
     <div class="container nav-wrap">
-      <a class="brand" href="index.html" aria-label="Sun Global Financial Services home">
-        <img class="brand-mark" src="assets/Sun%20Global%20Logo-01.png" alt="Sun Global Financial Services">
+      <a class="brand" href="index.html" aria-label="Sun Global Advisory Services home">
+        <img class="brand-mark" src="assets/sun-global-advisory-services-logo.svg" alt="Sun Global Advisory Services">
       </a>
 
       <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">
@@ -66,16 +101,16 @@
           <article class="hero-slide is-active">
             <p class="eyebrow light"><span></span> FINANCIAL ADVICE. REAL LIFE.</p>
             <h1>Protect what matters.<br>Invest with purpose.<br>Plan for tomorrow.</h1>
-            <p class="hero-copy">Sun Global Financial Services helps you make informed financial decisions built around your life, your priorities and your future.</p>
+            <p class="hero-copy">Sun Global Advisory Services helps you make informed financial decisions built around your life, your priorities and your future.</p>
           </article>
           <article class="hero-slide">
             <p class="eyebrow light"><span></span> YOUR GOALS. YOUR FINANCIAL PLAN.</p>
-            <h1>Your goals.<br>Your financial plan.</h1>
+            <p class="hero-slide-heading">Your goals.<br>Your financial plan.</p>
             <p class="hero-copy">Whether you're building wealth, protecting your family or preparing for retirement, the right financial strategy starts with understanding where you are and where you want to go.<br><br>Get advice that considers the bigger picture.</p>
           </article>
           <article class="hero-slide">
             <p class="eyebrow light"><span></span> PLAN TODAY. PREPARE FOR TOMORROW.</p>
-            <h1>Plan today.<br>Prepare for tomorrow.</h1>
+            <p class="hero-slide-heading">Plan today.<br>Prepare for tomorrow.</p>
             <p class="hero-copy">Life changes. Your financial needs can change with it.<br><br>From protection and investments to retirement planning, Sun Global helps you review your position, explore your options and plan with greater clarity.</p>
           </article>
         </div>
@@ -206,12 +241,12 @@
         </div>
         <form class="contact-form" id="consultationForm">
           <div class="form-row">
-            <input required name="name" type="text" placeholder="Your name" aria-label="Your name">
-            <input required name="email" type="email" placeholder="Your email" aria-label="Your email">
+            <label><span class="sr-only">Your name</span><input required id="home-name" name="name" type="text" placeholder="Your name" autocomplete="name"></label>
+            <label><span class="sr-only">Your email</span><input required id="home-email" name="email" type="email" placeholder="Your email" autocomplete="email"></label>
           </div>
           <div class="form-row">
-            <input required name="phone" type="tel" placeholder="Your phone number" aria-label="Your phone number">
-            <select name="interest" aria-label="What would you like to discuss?">
+            <label><span class="sr-only">Your phone number</span><input required id="home-phone" name="phone" type="tel" placeholder="Your phone number" autocomplete="tel"></label>
+            <label><span class="sr-only">What would you like to discuss?</span><select id="home-interest" name="interest">
               <option value="">What would you like to discuss?</option>
               <option>Protection / Insurance</option>
               <option>Investments</option>
@@ -219,7 +254,7 @@
               <option>Structured Investments</option>
               <option>Portfolio Review</option>
               <option>Other</option>
-            </select>
+            </select></label>
           </div>
           <button class="btn btn-gold" type="submit">Request a Consultation <span>→</span></button>
           <p class="form-message" role="status"></p>
@@ -231,7 +266,7 @@
   <footer class="footer">
     <div class="container footer-top">
       <a class="brand" href="index.html">
-        <img class="brand-mark" src="assets/Sun%20Global%20Logo-01.png" alt="Sun Global Financial Services">
+        <img class="brand-mark" src="assets/sun-global-advisory-services-logo.svg" alt="Sun Global Advisory Services">
       </a>
       <div class="footer-meta">
         <span>SUN GLOBAL ADVISORY SERVICES IS AN AUTHORISED FINANCIAL SERVICE PROVIDER | FSP - 51703</span>
@@ -244,7 +279,7 @@
     </div>
     <div class="footer-bottom">
       <div class="container">
-        <span>© <span id="year"></span> Sun Global Financial Services. All rights reserved.</span>
+        <span>© <span id="year"></span> Sun Global Advisory Services. All rights reserved.</span>
         <span><a href="#">Privacy Policy</a> &nbsp; | &nbsp; <a href="#">Terms & Conditions</a></span>
       </div>
     </div>

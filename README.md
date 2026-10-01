@@ -1,6 +1,6 @@
-# Sun Global Financial Services Website
+# Sun Global Advisory Services Website
 
-A responsive, multi-page website prototype for Sun Global Financial Services. It is built with plain HTML, CSS, and JavaScript and requires no package installation or build step.
+A responsive, multi-page website prototype for Sun Global Advisory Services. It is built with plain HTML, CSS, and JavaScript and requires no package installation or build step.
 
 Repository: <https://github.com/FortuneFire/sunglobal>
 
@@ -38,6 +38,10 @@ Repository: <https://github.com/FortuneFire/sunglobal>
 ```
 
 All pages share `styles.css` and `script.js`. The site includes responsive navigation, a Solutions dropdown, page-specific hero imagery, and a muted video hero on the About page.
+
+## SEO Deployment Note
+
+The production domain is `https://www.sunglobal.africa/`. Canonical URLs, Open Graph URLs, structured data, `sitemap.xml`, and `robots.txt` use this domain.
 
 ## Run Locally
 

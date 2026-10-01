@@ -33,7 +33,8 @@ document.addEventListener("click", (event) => {
 });
 
 const heroSlides = [...document.querySelectorAll(".hero-slide")];
-if (heroSlides.length > 1) {
+const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+if (heroSlides.length > 1 && !reducedMotion) {
   let activeHeroSlide = 0;
   window.setInterval(() => {
     heroSlides[activeHeroSlide].classList.remove("is-active");
