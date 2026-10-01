@@ -2,3 +2,8 @@
 Thumbs.db
 desktop.ini
 *.log
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
