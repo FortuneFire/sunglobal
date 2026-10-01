@@ -124,9 +124,16 @@
             <textarea name="message" rows="5" aria-label="Message"></textarea>
           </label>
           <label class="checkbox-row">
-            <input type="checkbox" required>
-            <span>I agree to be contacted regarding my enquiry.</span>
-          </label>
+  <input
+    type="checkbox"
+    name="consent"
+    value="yes"
+    required
+  >
+  <span>I agree to be contacted regarding my enquiry.</span>
+</label>
+          
+          <input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
           <button class="btn btn-gold" type="submit">Request a Consultation <span>→</span></button>
           <p class="form-message" role="status"></p>
         </form>

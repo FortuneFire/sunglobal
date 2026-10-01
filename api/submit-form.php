@@ -10,9 +10,17 @@ header('Content-Type: application/json; charset=utf-8');
 
 $hubspotServiceKey = getenv('HUBSPOT_SERVICE_KEY');
 
+$config = require '/home/sunglacw/sunglobal-config.php';
+
+if (!empty($config['hubspot_service_key'])) {
+    $hubspotServiceKey = $config['hubspot_service_key'];
+}
+
 $hubspotInterestProperty = 'sunglobal_interest';
-$hubspotMessageProperty  = 'sunglobal_enquiry';
-$hubspotConsentProperty  = 'sunglobal_consent';
+
+$hubspotMessageProperty = 'sunglobal_enquiry';
+
+$hubspotConsentProperty = 'sunglobal_consent';
 
 /*
 |--------------------------------------------------------------------------
