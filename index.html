@@ -8,17 +8,14 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/Sun%20Global%20Logo-01.png">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="site-header" id="top">
     <div class="container nav-wrap">
       <a class="brand" href="index.html" aria-label="Sun Global Financial Services home">
-        <span class="brand-mark">◌</span>
-        <span>
-          <strong>SUN GLOBAL</strong>
-          <small>FINANCIAL SERVICES</small>
-        </span>
+        <img class="brand-mark" src="assets/Sun%20Global%20Logo-01.png" alt="Sun Global Financial Services">
       </a>
 
       <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">
@@ -65,13 +62,23 @@
       <div class="hero-image" aria-hidden="true"></div>
       <div class="hero-overlay"></div>
       <div class="container hero-content">
-        <p class="eyebrow light"><span></span> FINANCIAL ADVICE. REAL LIFE.</p>
-        <h1>Protect what matters.<br>Invest with purpose.<br>Plan for tomorrow.</h1>
-        <p class="hero-copy">
-          Your financial needs change as life changes. Sun Global Financial Services
-          helps you make informed decisions about your protection, investments and
-          long-term financial goals.
-        </p>
+        <div class="hero-copy-carousel" aria-live="polite">
+          <article class="hero-slide is-active">
+            <p class="eyebrow light"><span></span> FINANCIAL ADVICE. REAL LIFE.</p>
+            <h1>Protect what matters.<br>Invest with purpose.<br>Plan for tomorrow.</h1>
+            <p class="hero-copy">Sun Global Financial Services helps you make informed financial decisions built around your life, your priorities and your future.</p>
+          </article>
+          <article class="hero-slide">
+            <p class="eyebrow light"><span></span> YOUR GOALS. YOUR FINANCIAL PLAN.</p>
+            <h1>Your goals.<br>Your financial plan.</h1>
+            <p class="hero-copy">Whether you're building wealth, protecting your family or preparing for retirement, the right financial strategy starts with understanding where you are and where you want to go.<br><br>Get advice that considers the bigger picture.</p>
+          </article>
+          <article class="hero-slide">
+            <p class="eyebrow light"><span></span> PLAN TODAY. PREPARE FOR TOMORROW.</p>
+            <h1>Plan today.<br>Prepare for tomorrow.</h1>
+            <p class="hero-copy">Life changes. Your financial needs can change with it.<br><br>From protection and investments to retirement planning, Sun Global helps you review your position, explore your options and plan with greater clarity.</p>
+          </article>
+        </div>
         <div class="hero-actions">
           <a class="btn btn-gold" href="contact.html">Request a Consultation <span>→</span></a>
           <a class="btn btn-light-outline" href="solutions.html">Speak to a Financial Consultant <span>→</span></a>
@@ -224,16 +231,13 @@
   <footer class="footer">
     <div class="container footer-top">
       <a class="brand" href="index.html">
-        <span class="brand-mark">◌</span>
-        <span><strong>SUN GLOBAL</strong><small>FINANCIAL SERVICES</small></span>
+        <img class="brand-mark" src="assets/Sun%20Global%20Logo-01.png" alt="Sun Global Financial Services">
       </a>
       <div class="footer-meta">
-        <span>⌖ Pretoria, Gauteng, South Africa</span>
-        <span>♢ FSP 51703</span>
+        <span>SUN GLOBAL ADVISORY SERVICES IS AN AUTHORISED FINANCIAL SERVICE PROVIDER | FSP - 51703</span>
       </div>
       <div class="footer-links">
         <a href="contact.html">Contact Us</a>
-        <a href="contact.html">Request a Consultation</a>
         <a href="#" aria-label="LinkedIn">in</a>
         <a href="#" aria-label="X">𝕏</a>
       </div>
@@ -246,6 +250,6 @@
     </div>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="script.js?v=carousel-1"></script>
 </body>
 </html>

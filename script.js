@@ -32,6 +32,16 @@ document.addEventListener("click", (event) => {
   }
 });
 
+const heroSlides = [...document.querySelectorAll(".hero-slide")];
+if (heroSlides.length > 1) {
+  let activeHeroSlide = 0;
+  window.setInterval(() => {
+    heroSlides[activeHeroSlide].classList.remove("is-active");
+    activeHeroSlide = (activeHeroSlide + 1) % heroSlides.length;
+    heroSlides[activeHeroSlide].classList.add("is-active");
+  }, 7000);
+}
+
 const currentPage = window.location.pathname.split("/").pop() || "index.html";
 const solutionPages = ["protection.html", "investments.html", "retirement.html", "structured-investments.html"];
 document.querySelectorAll(".main-nav a[data-page]").forEach(link => {

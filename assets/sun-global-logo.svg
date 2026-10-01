@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 768 768" role="img" aria-labelledby="title desc">
+  <title id="title">Sun Global Financial Services</title>
+  <desc id="desc">Sun Global Financial Services logo with a gold star on a navy circle.</desc>
+  <circle cx="384" cy="384" r="372" fill="#343752"/>
+  <g fill="none" stroke="#c99a4b" stroke-width="6" stroke-linejoin="miter">
+    <path d="m384 128 29 48 54-43 7 58 59 6-43 48 43 48-59 6-7 58-54-43-29 48-29-48-54 43-7-58-59-6 43-48-43-48 59-6 7-58 54 43z"/>
+    <path d="m384 175 17 36 39-15-15 39 36 17-36 17 15 39-39-15-17 36-17-36-39 15 15-39-36-17 36-17-15-39 39 15z"/>
+  </g>
+  <text x="384" y="464" text-anchor="middle" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="82" font-weight="700" letter-spacing="-4">SUN GLOBAL</text>
+  <text x="384" y="557" text-anchor="middle" fill="#c99a4b" font-family="Georgia, 'Times New Roman', serif" font-size="37" font-style="italic" letter-spacing="4">Financial Services</text>
+</svg>
